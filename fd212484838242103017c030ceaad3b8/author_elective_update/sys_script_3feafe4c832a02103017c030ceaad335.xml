@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1143021_loaner_v_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1143021_loaner_v_vehicle_tracker">vehicle_statusVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set field status</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here//
+	var vts=current.status; //Get the "vehicle_status" value from the current record on the tracker table.
+
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 01:01:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3feafe4c832a02103017c030ceaad335</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set field status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_update_name>sys_script_3feafe4c832a02103017c030ceaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 23:48:58</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=3feafe4c832a02103017c030ceaad335"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</application>
+        <file_path/>
+        <instance_id>2e0f14fb1b7982d8168f4089bd4bcb1e</instance_id>
+        <instance_name>dev263438</instance_name>
+        <name>sys_script_3feafe4c832a02103017c030ceaad335</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1143021_loaner_v_vehicle_tracker&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1143021_loaner_v_vehicle_tracker"&gt;vehicle_statusVALCHANGES^EQ&lt;item display_value="-- None --" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Set field status&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here//
+	var vts=current.status; //Get the "vehicle_status" value from the current record on the tracker table.
+
+	
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-29 01:01:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3feafe4c832a02103017c030ceaad335&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set field status&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v"&gt;fd212484838242103017c030ceaad3b8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;fd212484838242103017c030ceaad3b8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3feafe4c832a02103017c030ceaad335&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-29 23:48:58&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3feafe4c832a02103017c030ceaad335"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1059312570</payload_hash>
+        <record_name>Set field status</record_name>
+        <reverted_from/>
+        <source>2ae53040830642103017c030ceaad3b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 23:48:58</sys_created_on>
+        <sys_id>f988f3d0832202103017c030ceaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fc6c1c5330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 23:48:58</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>3188f3d0f7220210b28a079007e68e25</update_guid>
+        <update_guid_history>3188f3d0f7220210b28a079007e68e25:-1059312570,e6587bd048220210ddb1cde39b0a474e:728488682,0c973f90d3220210f076d1e1509b35a3:-671203671,dcdccb485a6a02107db5f4fa3d35910c:-1520628917,68744384546a0210b59b0cb6685ba2e2:1421345124,7e910bc01c6a0210d2ef13b87889493b:100207743,778f3ac0326a02101f7329df0d78a436:-1086523006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 23:49:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>8a093fc895744f5db7d3a56c471837c9</sys_id>
+        <sys_metadata>3feafe4c832a02103017c030ceaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set field status</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_parent display_value="Vehicle Tracker">9bf40b88838e42103017c030ceaad3f4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_scope_delete display_value="">3f6b308bf7c74d98ac1991642a6fc769</sys_scope_delete>
+        <sys_update_name>sys_script_3feafe4c832a02103017c030ceaad335</sys_update_name>
+        <sys_update_version display_value="sys_script_3feafe4c832a02103017c030ceaad335">f988f3d0832202103017c030ceaad325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 23:49:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

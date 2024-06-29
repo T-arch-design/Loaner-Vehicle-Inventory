@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>SN Logo</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-08 15:45:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3b96da783ea02103017c030ceaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SN Logo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_a3b96da783ea02103017c030ceaad35b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-08 15:45:22</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>SN Logo.jpg</file_name>
+        <hash>ae6f971d2f5013bd4973cbccf07a67f81e8b30a4c2bb5587fa2a674159bc8b6a</hash>
+        <image_height>50</image_height>
+        <image_width>50</image_width>
+        <size_bytes>1337</size_bytes>
+        <size_compressed>1201</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-08 15:45:24</sys_created_on>
+        <sys_id>b3b96da783ea02103017c030ceaad35e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-08 15:45:24</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>a3b96da783ea02103017c030ceaad35b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="SN Logo.jpg" sys_id="b3b96da783ea02103017c030ceaad35e">b3b96da783ea02103017c030ceaad35e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-08 15:45:24</sys_created_on>
+        <sys_id>f3b96da783ea02103017c030ceaad35e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>+3/j/wMGAS83TzcGRkZGhglAyPD/NoMzAxsLKxsrCxsbKxs7OxsHlwAXFycnlwgfP4+AuIiEhLiImJiUrKq8lLSyjJiYgo6Cspq6ppampLyuga6GgaqGpgbIEEZ2dnYuDi5hLi5hDSkxKQ2Swf8DDIIcDEYMRsyMSgxMgozMgoz/jzDIMzAwsjKCAQMUMDIxA93LzsHJxQ1UsFWAgYmRmZmJhZmVlYUFKFsLlGdgEWQVUjR0ZBMOTGRXKhQxapy4kEPZaeNB0aCLH1SMk4qaOLnExCUkpVTV1DU0tUxMzcwtLK2cXVzd3D08vYJDQsPCIyKjklNS09IzMrOKS0rLyisqq5pbWtvaOzq7Jk2eMnXa9BkzZy1avGTpsuUrVq7atHnL1m3bd+zcdejwkaPHjp84eerS5StXr12/cfPWw0ePnzx99vzFy1cfP33+8vXb9x8/f4H8xcjAzAgDWP0lCPQXEwsLMws7yF+MTOUgBYIsrIqGbEKOgeyJhcJKRo0cIk4TF248yKlsHPRBNKnoIpeYislD1Y8gr4F9RpzHmsjyGdxjCH/dYuBhZgRGHrMggz3Dz9h9H39d2Va2+V6MjtjGLZu2uwb+nJ/4PtD8nn3UC93ck2a3TJceEbsu3iX1rHJ+0idzndSNB5glvyafdwzWjBTn+Gy0OeJl2Xzdb4s+nb1nrdHSte/ojcb/DDVtcl9097Vb3pb9+na1XK8N4+WPWkX2rKbXM+X5t7x8b3e28pF2pDpH7KLNh98yr9SdZ6+16P2Ds7axk32ulorwJQt765242R4jenzFutSOnrkLy/7an3lTEekaV+Z99j/D1HPRIZfWlbzXfXpTdc+eo4XC+X3+C79+s1DesUr0husjXjnPS6ds1d9E+R68WbKv2vv6uxO7973Wj7Pq6Xr2da5drHbIzo3z2TxkFiov5jtSLdgcfSj3pWpacehy0TWyF/26NNbyuObvq9uq+2RR9cmlkod3Js53ylL7ffy1sx6DbS+ztX6byvHSdeesji71O/BLftqmLdW83pGXUrds9Qg6dfXWs8iluV0SKxjEbMoeVF/rP9wZ4rvu9iTmO5nFS5J3mzEe+H6sXuvSxS2/Y+0PP7t8zGjp2inrv61Q7Ev+1nS0cG6DYHNj743jpkctP/n5r5t/td9tiu1SC/Vt219+39c+P9z5cc+2penaxSrbxM4rvos+zfD80yoru1mmvom5C8qic4/OCz9wU+DJxrdz6vYEPsr+euXr6dUz2hTTbkt8cZWQX7Bu+pqLR7Yse3915pRA14wUX/ZJ6faZ959+njs3M63Nu36aA9cEaYYvZ53uV/zNiq5uFgvpvbhR+rrFHfacX/VfV4qs3SyxX5ut99QGm+ImrUO3JQ0u33GWesB7Vu3xTz3/lx7z02ZV8rQcmG0XwFZ049/yWSlyDj5nZDaU/nQ8oH2ufvlzB6Uv01fKbo7MzHiYIjEt7OHTb/8ZUmv3W63UKXTOWzDjaWWI0aaNp4pPKE3zXuJ7Oms226cXz98zvqit//Vs1UadIxtVJk/yr/LkPeGlsWhFY/R7+bWqIgGMrgjM/v8mAKKs9Pk5BQAA</data>
+        <length>1588</length>
+        <position>1</position>
+        <sys_attachment display_value="SN Logo.jpg" sys_id="b3b96da783ea02103017c030ceaad35e">b3b96da783ea02103017c030ceaad35e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-08 15:45:24</sys_created_on>
+        <sys_id>77b96da783ea02103017c030ceaad35e</sys_id>
+    </sys_attachment_doc>
+</record_update>

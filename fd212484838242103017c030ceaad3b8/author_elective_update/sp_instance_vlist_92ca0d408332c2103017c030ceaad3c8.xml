@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter table="incident">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">5eca0d408332c2103017c030ceaad3c0</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 02:47:05</sys_created_on>
+        <sys_id>92ca0d408332c2103017c030ceaad3c8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>My Open Incidents</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_update_name>sp_instance_vlist_92ca0d408332c2103017c030ceaad3c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:49:58</sys_updated_on>
+        <table>incident</table>
+        <title>My Open Incidents</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=92ca0d408332c2103017c030ceaad3c8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</application>
+        <file_path/>
+        <instance_id>2e0f14fb1b7982d8168f4089bd4bcb1e</instance_id>
+        <instance_name>dev263438</instance_name>
+        <name>sp_instance_vlist_92ca0d408332c2103017c030ceaad3c8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;short_description&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="incident"&gt;opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true^EQ&lt;item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;maximum_entries&gt;20&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by&gt;sys_updated_on&lt;/order_by&gt;&lt;order_direction&gt;desc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;5eca0d408332c2103017c030ceaad3c0&lt;/sp_column&gt;&lt;sp_page display_value="ticket"&gt;84af292247132100ba13a5554ee4909e&lt;/sp_page&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-10 02:47:05&lt;/sys_created_on&gt;&lt;sys_id&gt;92ca0d408332c2103017c030ceaad3c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Open Incidents&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v"&gt;fd212484838242103017c030ceaad3b8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;fd212484838242103017c030ceaad3b8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_92ca0d408332c2103017c030ceaad3c8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-11 14:49:58&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;title&gt;My Open Incidents&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=92ca0d408332c2103017c030ceaad3c8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1371109504</payload_hash>
+        <record_name>My Open Incidents</record_name>
+        <reverted_from/>
+        <source>2ae53040830642103017c030ceaad3b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 14:49:58</sys_created_on>
+        <sys_id>cdd930a4833202103017c030ceaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19007c6f7170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:49:58</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>85d930a4b53202102b98ec6f9dd60ee9</update_guid>
+        <update_guid_history>85d930a4b53202102b98ec6f9dd60ee9:1371109504,c389b8646732021032b77ffe3c557748:1381766721,3e8199880332c2101b8704bc79bf9140:1392423938,51815988a932c2103929d53c9e0e749d:1403081155,1cffc1083732c2102eba91a30ec96cce:1392423938,d2ca0d409132c2105e24fa0684e0dcca:1381766721</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Open Incidents">84e97464833202103017c030ceaad3d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 14:50:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>343c9b0d177b40168d016c8dcffe7644</sys_id>
+        <sys_metadata>92ca0d408332c2103017c030ceaad3c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open Incidents</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_scope_delete display_value="">3f6b308bf7c74d98ac1991642a6fc769</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_92ca0d408332c2103017c030ceaad3c8</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_92ca0d408332c2103017c030ceaad3c8">cdd930a4833202103017c030ceaad3e9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:50:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

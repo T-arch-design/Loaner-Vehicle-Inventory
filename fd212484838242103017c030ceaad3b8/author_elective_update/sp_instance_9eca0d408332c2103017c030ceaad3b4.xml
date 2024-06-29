@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>tasks</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1eca0d408332c2103017c030ceaad3af</sp_column>
+        <sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 02:47:05</sys_created_on>
+        <sys_id>9eca0d408332c2103017c030ceaad3b4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_update_name>sp_instance_9eca0d408332c2103017c030ceaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:38:22</sys_updated_on>
+        <title>News</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=9eca0d408332c2103017c030ceaad3b4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</application>
+        <file_path/>
+        <instance_id>2e0f14fb1b7982d8168f4089bd4bcb1e</instance_id>
+        <instance_name>dev263438</instance_name>
+        <name>sp_instance_9eca0d408332c2103017c030ceaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph>tasks</glyph><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">1eca0d408332c2103017c030ceaad3af</sp_column><sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-10 02:47:05</sys_created_on><sys_id>9eca0d408332c2103017c030ceaad3b4</sys_id><sys_mod_count>6</sys_mod_count><sys_name>News</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope><sys_update_name>sp_instance_9eca0d408332c2103017c030ceaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-11 14:38:22</sys_updated_on><title>News</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=9eca0d408332c2103017c030ceaad3b4"/></record_update>]]></payload>
+        <payload_hash>-762979313</payload_hash>
+        <record_name>News</record_name>
+        <reverted_from/>
+        <source>2ae53040830642103017c030ceaad3b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 14:38:22</sys_created_on>
+        <sys_id>532734a0833202103017c030ceaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19007bc59e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:38:22</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>1b2734a0fa320210ed0730778d55f880</update_guid>
+        <update_guid_history>1b2734a0fa320210ed0730778d55f880:-762979313,2b0770a008320210a2eb4eef2f0a5684:1537677712,8b435a905e3e0210a11de12c36007d91:-456632559,118159888032c210f3445aa814e43669:1537677712,a8811988f232c21075aa0aeb30f413fb:-456632559,0cffc1087e32c210f9dbcaf654047bab:1537677712,92ca0d409932c210d4d7a8bc43ca4db6:-762979313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="News">34373c60833202103017c030ceaad314</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 14:38:29</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>38047e2158484ee4bc121a00037a9f81</sys_id>
+        <sys_metadata>9eca0d408332c2103017c030ceaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_scope_delete display_value="">3f6b308bf7c74d98ac1991642a6fc769</sys_scope_delete>
+        <sys_update_name>sp_instance_9eca0d408332c2103017c030ceaad3b4</sys_update_name>
+        <sys_update_version display_value="sp_instance_9eca0d408332c2103017c030ceaad3b4">532734a0833202103017c030ceaad381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 14:38:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

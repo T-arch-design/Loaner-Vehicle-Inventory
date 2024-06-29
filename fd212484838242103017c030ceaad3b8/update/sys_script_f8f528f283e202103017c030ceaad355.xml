@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1143021_loaner_v_vehicle_servicing</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1143021_loaner_v_vehicle_servicing">ticket_statusCHANGESTOClosed^EQ<item display_value="Closed" endquery="false" field="ticket_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Closed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set vehicle tracker status to closed</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var trkstat = current.vehicle_tracker; //Create a variable for the current sys_id of the vehicle tracker record
+    if (trkstat) { //Create an "if statement" for the variable previously created}
+        var vtgr = new GlideRecord('x_1143021_loaner_v_vehicle_servicing'); //Create a variable for a new GlideRecord on the vehicle tracker table
+        if (vtgr.get(trkstat)) { //Create an "if statement" on the vehicle tracker gliderecord to get the current vehicle tracker record
+            vtgr.setValue('vehicle_status', current.veh_status); //Set the value of the vehicle status field on the GlideRecord to the current vehicle status on the servicing table
+            vtgr.setValue('tracker_status', 'Closed'); // Set the value of the tracker status field to closed on the GlideRecord
+
+            vtgr.update(); //Update the GlideRecord
+        }
+
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 03:25:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8f528f283e202103017c030ceaad355</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set vehicle tracker status to closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_update_name>sys_script_f8f528f283e202103017c030ceaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-07 00:12:22</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f8f528f283e202103017c030ceaad355"/>
+</record_update>

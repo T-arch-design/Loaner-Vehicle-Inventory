@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1143021_loaner_v_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1143021_loaner_v_vehicle_tracker">vehicle_statusCHANGESTOSent for Servicing^EQ<item display_value="Sent for Servicing" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Sent for Servicing"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Vehicle Status changes to Sent for Servi</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var lstgr = new GlideRecord('x_1143021_loaner_v_vehicle_servicing'); // Create a variable for a new GlideRecord on the servicing table
+    lstgr.addQuery('reference', current.sys_id); // Query the servicing table for the current sys_id of the record that is in the vehicle tracker field
+    lstgr.addQuery('tracker_status', 'Open'); // Query the servicing table for records where the tracker status is open
+    lstgr.query(); // Execute the query
+
+    if (!lstgr._next()) {
+        //Create an "if statement": if no matching records are found from the previous query move on with the script: .next()
+
+        var lstgr2 = new GlideRecord('x_1143021_loaner_v_vehicle_servicing'); // Create a variable for a new GlideRecord on the servicing table
+
+        var currgd = new GlideRecord(); //Create a variable for a new GlideDate that will get the current date ( this will be used to set the current date in the servicing ticket's opening date)
+
+        lstgr2.initialize();
+        lstgr2.setValue('vehicle_servicing', current.sys_id); // Set the value of vehicle to the current records vehicle value
+        lstgr2.setValue('reference', current.vehicle_item); // Set the value of vehicle to the current records vehicle value
+        lstgr2.setValue('vehicle_status', 'In Service'); // Set the value of vehicle status to in service
+        lstgr2.setValue('date_sent_for_servicing', currgd.getValue()); // Set the value of date sent for servicing to the current date
+        lstgr2.setValue('ticket_status', 'Open'); //Set the value of ticket status to open
+        lstgr2.insert(); //Insert the new record
+
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 00:40:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a8780fe832202103017c030ceaad3ee</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Vehicle Status changes to Sent for Servi</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1143021_loaner_v">fd212484838242103017c030ceaad3b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">fd212484838242103017c030ceaad3b8</sys_scope>
+        <sys_update_name>sys_script_6a8780fe832202103017c030ceaad3ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 02:11:23</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a8780fe832202103017c030ceaad3ee"/>
+</record_update>
